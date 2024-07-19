@@ -1,23 +1,30 @@
 [
     {
-        "title": "To Do List",
+        "title": "VideConnect",
         "imageSrc": "projects/project.png",
-        "description": "Adding and deleting tasks",
-        "skills": ["MongoDB", "Express", "Node", "EJS"],
-        "source": "https://github.com/yt7406/Todo"
+        "description": "User can upload the videos, like and comment, tweet, view a dashboard and who has liked the video",
+        "skills": ["MongoDB", "Express", "Node", "JavaScript","React"],
+        "source": "https://letmecook2-0-11.onrender.com/"
     },
     {
-        "title": "Portfolio",
+        "title": "SnapWrite",
         "imageSrc": "projects/project.png",
-        "description": "Portfolio using only HTML and CSS",
-        "skills": ["HTML", "CSS"],
-        "source": "https://yogendratiwari.netlify.app/"
+        "description": "Implemented features for users to read, write, post, update and delete articles, ensuring a responsive experience",
+        "skills": ["React", "Node.JS","JavaScript","Tailwind CSS","Appwrite"],
+        "source": "https://snapwreete.netlify.app/"
+    },
+    {
+        "title": "IncomeWise",
+        "imageSrc": "projects/project.png",
+        "description": "Company's Website allows the owner to access user queries via the realtime database",
+        "skills": ["HTML", "CSS", "JavaScript","Firebase"],
+        "source": "https://incomewise-advisors.netlify.app/"
     },
     {
         "title": "Trend Tracker",
         "imageSrc": "projects/project.png",
-        "description": "Signup page for Newsletter.",
-        "skills": ["Express", "JavaScript", "HTML"],
-        "source": "https://github.com/yt7406/signup_page"
+        "description": "Retrieve the IMDB Rating, Awards and genre of the searched movie by accessing data through the OMDB API",
+        "skills": ["React", "API", "HTML","CSS","JavaScript"],
+        "source": "https://the-trend-tracker.netlify.app/"
     }
   ]
