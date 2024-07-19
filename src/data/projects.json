@@ -1,0 +1,23 @@
+[
+    {
+        "title": "To Do List",
+        "imageSrc": "projects/project.png",
+        "description": "Adding and deleting tasks",
+        "skills": ["MongoDB", "Express", "Node", "EJS"],
+        "source": "https://github.com/yt7406/Todo"
+    },
+    {
+        "title": "Portfolio",
+        "imageSrc": "projects/project.png",
+        "description": "Portfolio using only HTML and CSS",
+        "skills": ["HTML", "CSS"],
+        "source": "https://yogendratiwari.netlify.app/"
+    },
+    {
+        "title": "Trend Tracker",
+        "imageSrc": "projects/project.png",
+        "description": "Signup page for Newsletter.",
+        "skills": ["Express", "JavaScript", "HTML"],
+        "source": "https://github.com/yt7406/signup_page"
+    }
+  ]
