@@ -1,71 +1,94 @@
 @import "../../vars.css";
 
-.container{
-    color:var(--color-text);
-    margin-top: 79px;
-    margin-left: 10%;
-    margin-right: 10%;
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.title{
-    color:var(--color-text);
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
 }
 
-.content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 14px;
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
 }
 
-.skills{
-    width:45%;
-    display: flex;
-    flex-wrap: wrap;
-    gap:37px;
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+  justify-content: center;
 }
 
-.skill{
-    display: flex;
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  flex: 1 1 calc(25% - 40px); /* Adjust the percentage to control the number of items per row */
+  max-width: calc(25% - 40px); /* Same as flex-basis to prevent overflow */
+  box-sizing: border-box;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+
+.skillImageContainer img {
+  width: 75px;
+}
+
+.skillImageContainer p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+}
+
+@media screen and (max-width: 1200px) {
+  .skill {
+    flex: 1 1 calc(33.33% - 40px); /* Three items per row */
+    max-width: calc(33.33% - 40px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .skill {
+    flex: 1 1 calc(50% - 40px); /* Two items per row */
+    max-width: calc(50% - 40px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill {
+    flex: 1 1 calc(100% - 40px); /* One item per row */
+    max-width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .content {
     flex-direction: column;
     align-items: center;
-    gap: 11px;
-}
+    gap: 34px;
+  }
 
-.skillImageContainer{
-    background-color: var(--color-secondary);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
+  .skills {
+    width: 100%;
+    flex-direction: row;
     justify-content: center;
-    width:120px;
-    height:120px;
-}
-
-.skillImageContainer img{
-    width:75px;
-}
-
-.skillImageContainer p{
-    font-size: 25px;
-    font-family: var(--font-roboto);
-}
-
-@media screen and (max-width:830px) {
-    .content{
-        flex-direction: column;
-        align-items: center;
-        gap:34px;
-    }
-
-    .skills{
-        width:100%;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
+  }
 }
