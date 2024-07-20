@@ -30,7 +30,17 @@
     {
         "title": "Bootstrap",
         "imageSrc": "skills/Bootstrap.png"
+    },
+    {
+        "title":"Tailwind CSS",
+        "imageSrc":"skills/tailwindcss.svg"
+    },
+    {
+        "title":"C",
+        "imageSrc":"skills/C.png"
+    },
+    {
+        "title":"Appwrite",
+        "imageSrc":"skills/appwri.svg"
     }
-
-    
 ]
